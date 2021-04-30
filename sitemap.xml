@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://scarlett9354.github.io/2021/04/29/TypeScript%E5%BC%80%E5%8F%91%E5%AE%9E%E6%88%98/</loc>
+    
+    <lastmod>2021-04-30</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://scarlett9354.github.io/2021/04/28/React%E5%AE%9E%E6%88%98%E8%BF%9B%E9%98%B645%E8%AE%B2/</loc>
     
     <lastmod>2021-04-29</lastmod>
@@ -17,13 +24,6 @@
   
   <url>
     <loc>https://scarlett9354.github.io/2021/04/29/%E5%89%8D%E7%AB%AF%E5%85%A8%E9%93%BE%E8%B7%AF%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96%E5%AE%9E%E6%88%98/</loc>
-    
-    <lastmod>2021-04-29</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://scarlett9354.github.io/2021/04/29/TypeScript%E5%BC%80%E5%8F%91%E5%AE%9E%E6%88%98/</loc>
     
     <lastmod>2021-04-29</lastmod>
     
@@ -58,13 +58,6 @@
   </url>
   
   <url>
-    <loc>https://scarlett9354.github.io/about/index.html</loc>
-    
-    <lastmod>2021-04-26</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://scarlett9354.github.io/books/index.html</loc>
     
     <lastmod>2021-04-26</lastmod>
@@ -72,7 +65,7 @@
   </url>
   
   <url>
-    <loc>https://scarlett9354.github.io/links/index.html</loc>
+    <loc>https://scarlett9354.github.io/about/index.html</loc>
     
     <lastmod>2021-04-26</lastmod>
     
@@ -80,6 +73,13 @@
   
   <url>
     <loc>https://scarlett9354.github.io/categories/index.html</loc>
+    
+    <lastmod>2021-04-26</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://scarlett9354.github.io/links/index.html</loc>
     
     <lastmod>2021-04-26</lastmod>
     
@@ -95,7 +95,7 @@
 
   <url>
     <loc>https://scarlett9354.github.io/</loc>
-    <lastmod>2021-04-29</lastmod>
+    <lastmod>2021-04-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -103,49 +103,49 @@
   
   <url>
     <loc>https://scarlett9354.github.io/tags/Node-js/</loc>
-    <lastmod>2021-04-29</lastmod>
+    <lastmod>2021-04-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://scarlett9354.github.io/tags/TypeScript/</loc>
-    <lastmod>2021-04-29</lastmod>
+    <lastmod>2021-04-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://scarlett9354.github.io/tags/%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/</loc>
-    <lastmod>2021-04-29</lastmod>
+    <lastmod>2021-04-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://scarlett9354.github.io/tags/webpack/</loc>
-    <lastmod>2021-04-29</lastmod>
+    <lastmod>2021-04-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://scarlett9354.github.io/tags/React/</loc>
-    <lastmod>2021-04-29</lastmod>
+    <lastmod>2021-04-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://scarlett9354.github.io/tags/http/</loc>
-    <lastmod>2021-04-29</lastmod>
+    <lastmod>2021-04-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://scarlett9354.github.io/tags/https/</loc>
-    <lastmod>2021-04-29</lastmod>
+    <lastmod>2021-04-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -154,42 +154,42 @@
   
   <url>
     <loc>https://scarlett9354.github.io/categories/Node-js/</loc>
-    <lastmod>2021-04-29</lastmod>
+    <lastmod>2021-04-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://scarlett9354.github.io/categories/TypeScript/</loc>
-    <lastmod>2021-04-29</lastmod>
+    <lastmod>2021-04-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://scarlett9354.github.io/categories/%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/</loc>
-    <lastmod>2021-04-29</lastmod>
+    <lastmod>2021-04-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://scarlett9354.github.io/categories/webpack/</loc>
-    <lastmod>2021-04-29</lastmod>
+    <lastmod>2021-04-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://scarlett9354.github.io/categories/React/</loc>
-    <lastmod>2021-04-29</lastmod>
+    <lastmod>2021-04-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://scarlett9354.github.io/categories/HTTP/</loc>
-    <lastmod>2021-04-29</lastmod>
+    <lastmod>2021-04-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
