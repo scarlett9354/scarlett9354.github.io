@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://scarlett9354.github.io/2021/04/28/%E7%8E%A9%E8%BD%ACwebpack/</loc>
+    
+    <lastmod>2021-04-30</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://scarlett9354.github.io/2021/04/29/TypeScript%E5%BC%80%E5%8F%91%E5%AE%9E%E6%88%98/</loc>
     
     <lastmod>2021-04-30</lastmod>
@@ -37,13 +44,6 @@
   </url>
   
   <url>
-    <loc>https://scarlett9354.github.io/2021/04/28/%E7%8E%A9%E8%BD%ACwebpack/</loc>
-    
-    <lastmod>2021-04-28</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://scarlett9354.github.io/2021/04/28/%E9%80%8F%E8%A7%86HTTP%E5%8D%8F%E8%AE%AE/</loc>
     
     <lastmod>2021-04-28</lastmod>
@@ -58,14 +58,14 @@
   </url>
   
   <url>
-    <loc>https://scarlett9354.github.io/books/index.html</loc>
+    <loc>https://scarlett9354.github.io/about/index.html</loc>
     
     <lastmod>2021-04-26</lastmod>
     
   </url>
   
   <url>
-    <loc>https://scarlett9354.github.io/about/index.html</loc>
+    <loc>https://scarlett9354.github.io/books/index.html</loc>
     
     <lastmod>2021-04-26</lastmod>
     
@@ -123,14 +123,14 @@
   </url>
   
   <url>
-    <loc>https://scarlett9354.github.io/tags/webpack/</loc>
+    <loc>https://scarlett9354.github.io/tags/React/</loc>
     <lastmod>2021-04-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://scarlett9354.github.io/tags/React/</loc>
+    <loc>https://scarlett9354.github.io/tags/webpack/</loc>
     <lastmod>2021-04-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -174,14 +174,14 @@
   </url>
   
   <url>
-    <loc>https://scarlett9354.github.io/categories/webpack/</loc>
+    <loc>https://scarlett9354.github.io/categories/React/</loc>
     <lastmod>2021-04-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://scarlett9354.github.io/categories/React/</loc>
+    <loc>https://scarlett9354.github.io/categories/webpack/</loc>
     <lastmod>2021-04-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
