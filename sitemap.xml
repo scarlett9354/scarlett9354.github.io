@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://scarlett9354.github.io/2021/07/27/React17-ReactHook-TS4%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5%EF%BC%8C%E4%BB%BFJira%E4%BC%81%E4%B8%9A%E7%BA%A7%E9%A1%B9%E7%9B%AE/</loc>
+    
+    <lastmod>2021-07-30</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://scarlett9354.github.io/2021/06/25/%E5%B7%A5%E4%BD%9C%E8%AE%B0%E5%BD%95/</loc>
     
     <lastmod>2021-07-20</lastmod>
@@ -100,14 +107,14 @@
   </url>
   
   <url>
-    <loc>https://scarlett9354.github.io/books/index.html</loc>
+    <loc>https://scarlett9354.github.io/about/index.html</loc>
     
     <lastmod>2021-04-26</lastmod>
     
   </url>
   
   <url>
-    <loc>https://scarlett9354.github.io/about/index.html</loc>
+    <loc>https://scarlett9354.github.io/books/index.html</loc>
     
     <lastmod>2021-04-26</lastmod>
     
@@ -187,6 +194,13 @@
   
   <url>
     <loc>https://scarlett9354.github.io/tags/TypeScript/</loc>
+    <lastmod>2021-07-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://scarlett9354.github.io/tags/React-Hook/</loc>
     <lastmod>2021-07-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
