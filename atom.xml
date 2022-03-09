@@ -6,7 +6,7 @@
   <link href="https://scarlett9354.github.io/atom.xml" rel="self"/>
   
   <link href="https://scarlett9354.github.io/"/>
-  <updated>2021-08-24T08:43:11.382Z</updated>
+  <updated>2022-03-09T09:41:34.708Z</updated>
   <id>https://scarlett9354.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>精通React Hook开发</title>
+    <link href="https://scarlett9354.github.io/2022/03/09/%E7%B2%BE%E9%80%9AReactHook%E5%BC%80%E5%8F%91/"/>
+    <id>https://scarlett9354.github.io/2022/03/09/%E7%B2%BE%E9%80%9AReactHook%E5%BC%80%E5%8F%91/</id>
+    <published>2022-03-09T07:17:53.000Z</published>
+    <updated>2022-03-09T09:41:34.708Z</updated>
+    
+    <content type="html"><![CDATA[<p>C:\studyFiles\react-hook</p><h1 id="1-认识react函数组件与hook"><a href="#1-认识react函数组件与hook" class="headerlink" title="1 | 认识react函数组件与hook"></a>1 | 认识react函数组件与hook</h1><h2 id="1-1-认识函数组件"><a href="#1-1-认识函数组件" class="headerlink" title="1-1 认识函数组件"></a>1-1 认识函数组件</h2><ul><li><p>为什么要使用函数组件？</p><p>运行<code>$ npx create-react-app react-hook</code>创建项目，如果是个简单组件，用class组件就显得比较麻烦，比如：</p><p>src/components/cmp1.js:</p><figure class="highlight jsx"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> React <span class="keyword">from</span> <span class="string">&#x27;react&#x27;</span></span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Cmp1</span> <span class="keyword">extends</span> <span class="title">React</span>.<span class="title">Component</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="title">render</span>(<span class="params"></span>)</span> &#123;</span><br><span class="line">        <span class="keyword">return</span> (</span><br><span class="line">            &lt;div&gt;aaa&lt;/div&gt;</span><br><span class="line">        )</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">export</span> <span class="keyword">default</span> Cmp1</span><br></pre></td></tr></table></figure><p>在src/App.js中使用：</p><figure class="highlight jsx"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> React <span class="keyword">from</span> <span class="string">&#x27;react&#x27;</span></span><br><span class="line"><span class="keyword">import</span> Cmp1 <span class="keyword">from</span> <span class="string">&#x27;./components/cmp1&#x27;</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">App</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> (</span><br><span class="line">        &lt;div&gt;</span><br><span class="line">            react</span><br><span class="line">            &lt;Cmp1 /&gt;</span><br><span class="line">        &lt;/div&gt;</span><br><span class="line">    );</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">export</span> <span class="keyword">default</span> App;</span><br></pre></td></tr></table></figure><p>而使用函数组件改造cmp1.js如下：</p><figure class="highlight jsx"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> React <span class="keyword">from</span> <span class="string">&#x27;react&#x27;</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">Cmp1</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> (</span><br><span class="line">        &lt;div&gt;bbb&lt;/div&gt;</span><br><span class="line">    )</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">export</span> <span class="keyword">default</span> Cmp1</span><br></pre></td></tr></table></figure><p>因此，函数组件与class组件对比：</p><ol><li>class组件—功能全、东西多；麻烦</li><li>函数组件—功能弱、东西少；方便</li></ol></li><li><p>函数组件弱在哪？</p><table><thead><tr><th align="center">序号</th><th>弱在这</th><th align="center">class组件</th><th align="center">fc(函数组件)</th><th>hook</th><th>描述</th></tr></thead><tbody><tr><td align="center">1</td><td>状态—能变的、导致组件重新渲染</td><td align="center">√</td><td align="center">×</td><td>useState</td><td>class组件中有<code>this.state.xx</code>，函数组件(fc，function component)中没有</td></tr><tr><td align="center">2</td><td>this—当前实例</td><td align="center">√</td><td align="center">×</td><td>用不着，有其他办法补充</td><td>React、Vue等框架都默认工作在严格模式下，所以在函数组件中打印this为undefined</td></tr><tr><td align="center">3</td><td>ref—引用</td><td align="center">√</td><td align="center">×</td><td>useRef</td><td></td></tr><tr><td align="center">4</td><td>方法</td><td align="center">√</td><td align="center">×</td><td>forward</td><td>在fc中定义一个方法根本不行</td></tr><tr><td align="center">5</td><td>props</td><td align="center">√</td><td align="center">√</td><td></td><td>class组件中直接使用<code>this.props.xx</code>，fc中可以将props作为函数参数传递，使用时直接<code>props.xx</code></td></tr></tbody></table></li><li><p>hook</p><p>它是一套工具函数的集合，为了增强fc的功能，让fc也能具备与class一样的功能，而且还更加方便，是fc专用的，见上表的hook列。</p></li></ul><h2 id="1-2-认识hook"><a href="#1-2-认识hook" class="headerlink" title="1-2 认识hook"></a>1-2 认识hook</h2>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;C:\studyFiles\react-hook&lt;/p&gt;
+&lt;h1 id=&quot;1-认识react函数组件与hook&quot;&gt;&lt;a href=&quot;#1-认识react函数组件与hook&quot; class=&quot;headerlink&quot; title=&quot;1 | 认识react函数组件与hook&quot;&gt;&lt;/</summary>
+      
+    
+    
+    
+    <category term="React" scheme="https://scarlett9354.github.io/categories/React/"/>
+    
+    
+    <category term="React" scheme="https://scarlett9354.github.io/tags/React/"/>
+    
+    <category term="React Hook" scheme="https://scarlett9354.github.io/tags/React-Hook/"/>
+    
+  </entry>
   
   <entry>
     <title>前端LeetCode题目</title>
@@ -63,9 +90,9 @@
     
     <category term="React" scheme="https://scarlett9354.github.io/tags/React/"/>
     
-    <category term="TypeScript" scheme="https://scarlett9354.github.io/tags/TypeScript/"/>
-    
     <category term="React Hook" scheme="https://scarlett9354.github.io/tags/React-Hook/"/>
+    
+    <category term="TypeScript" scheme="https://scarlett9354.github.io/tags/TypeScript/"/>
     
   </entry>
   
@@ -91,9 +118,9 @@
     
     <category term="React" scheme="https://scarlett9354.github.io/tags/React/"/>
     
-    <category term="TypeScript" scheme="https://scarlett9354.github.io/tags/TypeScript/"/>
-    
     <category term="React Hook" scheme="https://scarlett9354.github.io/tags/React-Hook/"/>
+    
+    <category term="TypeScript" scheme="https://scarlett9354.github.io/tags/TypeScript/"/>
     
   </entry>
   
@@ -119,9 +146,9 @@
     
     <category term="React" scheme="https://scarlett9354.github.io/tags/React/"/>
     
-    <category term="TypeScript" scheme="https://scarlett9354.github.io/tags/TypeScript/"/>
-    
     <category term="React Hook" scheme="https://scarlett9354.github.io/tags/React-Hook/"/>
+    
+    <category term="TypeScript" scheme="https://scarlett9354.github.io/tags/TypeScript/"/>
     
   </entry>
   
